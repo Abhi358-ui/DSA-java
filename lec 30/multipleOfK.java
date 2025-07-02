@@ -16,8 +16,9 @@ public class multipleOfK {
             return;
         }
         
-        // 
+        // recursive work
         printMultiple(num,k-1);
+        // self work
         System.out.println(num*k);
 
 
