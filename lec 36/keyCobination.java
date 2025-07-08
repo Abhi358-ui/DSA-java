@@ -2,7 +2,7 @@
 // Given a string containing digit from 2-9 inclusive return all the possiable letter combinations that the number could represent. return the answer in any order
 
 /*
-input : digit : "23"
+input : digit : "23";
 output : "ad", "ac", "af", "bd", "bc", "bf", "cd", "cc", "cf"
  */
 
