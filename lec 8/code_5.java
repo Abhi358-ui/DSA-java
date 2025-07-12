@@ -10,8 +10,8 @@ public class code_5 {
         int fact = 1;
         for (int i = 1; i <= n; i++) {
             fact *= i;
-            System.out.println("Factorial of " + i + " is = " + fact);
         }
+            System.out.println("Factorial of " + n + " is = " + fact);
 
         sc.close();
     }
