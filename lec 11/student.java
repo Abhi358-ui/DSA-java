@@ -1,12 +1,14 @@
+class teacher{
+        String teachername;
+        int salaries;
+        String department;
+    }
 
 public class student {
     int rollno;
     String studentname;
 
-    class teacher{
-        String teachername;
-        int salaries;
-    }
+    
 
     public static void main(String[] args) {
         student sc = new student();
@@ -18,6 +20,9 @@ public class student {
         teacher t = new teacher();
         t.teachername = "ramesh";
         t.salaries = 5000;
+        t.department = "cs";
+
+        System.out.println(t.department);
         System.out.println(t.teachername);
 
         
