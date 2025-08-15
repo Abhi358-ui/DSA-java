@@ -12,7 +12,7 @@
 
 	public void setRno(int roll)  // setter function
 	{
-		rno=roll;
+		this.rno=roll;
 	}
 
 
