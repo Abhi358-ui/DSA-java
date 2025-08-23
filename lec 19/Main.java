@@ -10,7 +10,7 @@ class Main {
 		
 		// Scanner sc = new Scanner(System.in);
 
-		int [] arr={-1,3,22,11,10};
+		int [] arr={1,3,22,11,10};
 		System.out.println(Arrays.toString(check(arr)));
 
 

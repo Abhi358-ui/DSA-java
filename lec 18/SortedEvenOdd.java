@@ -4,7 +4,6 @@
 import java.util.Arrays;
 
 public class SortedEvenOdd {
-    
     public static void main(String[] args) {
         
         int[] arr={1,2,3,4,5,6,77,12};
@@ -17,7 +16,6 @@ public class SortedEvenOdd {
         int end=arr.length-1;
 
         while (start<end) {
-
             if(arr[start]%2!=0 && arr[end]%2==0)
             {
                 int temp=arr[start];
@@ -37,7 +35,6 @@ public class SortedEvenOdd {
             {
                 end--;
             }
-            
         }
 
         return arr;

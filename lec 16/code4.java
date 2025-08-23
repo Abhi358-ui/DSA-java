@@ -27,7 +27,7 @@ class code4{
 
 public static void main(String[]args){
 
-int [] arr = {1,22,3,21,31,12};
+int [] arr = {1,22,3,22,31,12};
 
 System.out.println(findrepeat(arr));
 

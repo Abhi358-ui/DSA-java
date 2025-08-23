@@ -24,21 +24,15 @@ class QueriesQuestion {
 
 		while (q>0) {
 			System.out.println("Enter the r and l");
-			int r=sc.nextInt();
 			int l=sc.nextInt();
+			int r=sc.nextInt();
 
-			System.out.println("Sum is :"+(arr[l]-arr[r-1]));
-
-
-			q--;
-			
+			// System.out.println(arr[l]);
+			// System.out.println(arr[r-1]);
+			System.out.println("Sum is :"+(arr[r]-arr[l-1]));
+			q--;			
 		}
-
-
-
-
 	}
-
 
 	static void check(int[] arr){
 
@@ -46,6 +40,5 @@ class QueriesQuestion {
 		{
 			arr[i]=arr[i-1]+arr[i];
 		}
-
 	}
 }

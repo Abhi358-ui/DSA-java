@@ -54,7 +54,9 @@ import java.util.Arrays;
 public class RotateArrayKstep {
     public static void main(String[] args) {
         int[] arr={22,3,11,44,55};
-        System.out.println(Arrays.toString(Reverse(arr,2)));
+        // step 1 --> 55 44 11 3 2
+        // step 2 --> 44 55 22 3 11
+        System.out.println(Arrays.toString(Reverse(arr,6)));
     }
 
 

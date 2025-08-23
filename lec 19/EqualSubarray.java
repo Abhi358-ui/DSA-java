@@ -3,7 +3,6 @@
 
 
 import java.util.*;
-
 class EqualSubarray {
 
 	public static void main(String[] args) {
@@ -20,16 +19,12 @@ class EqualSubarray {
 
 		// prefix sum calculated in the array
 		check(arr);
-
 		System.out.println(EqualCheck(arr));
-
-
-
 	}
 
 
 
-	static void check(int[] arr){
+	static void check(int[] arr) {
 
 		for(int i=1; i<=arr.length-1; i++)
 		{
@@ -48,7 +43,6 @@ class EqualSubarray {
 			}
 			
 		}
-
 		return false;
 	}
 }

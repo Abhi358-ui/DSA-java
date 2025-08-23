@@ -15,9 +15,6 @@ public class Squares {
         int end=arr.length-1;
         int[] ans=new int[end+1];
         int k=0;
-
-
-
         while(start<=end)
         {
             if(Math.abs(arr[start])>Math.abs(arr[end]))
@@ -26,22 +23,10 @@ public class Squares {
                 start++;
             }
             else{
-                ans[k++]=arr[end]*arr[end];
-                
-                
-                
-                
+                ans[k++]=arr[end]*arr[end];    
                 end--;
-            }
-            
-
-
-            
+            }     
         }
-
-        
-
-
         return ans;
     }
 }

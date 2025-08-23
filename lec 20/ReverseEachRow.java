@@ -6,9 +6,10 @@ public class ReverseEachRow {
     public static void main(String[] args) {
         
         int[][] brr={
-            {1,2,3},
-            {7,4,8},
-            {4,3,2}
+            {1,2,3,4},
+            {7,4,8,4},
+            {4,3,2,2},
+            {7,4,8,4}
         };
 
         Reverse(brr);

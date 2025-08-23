@@ -8,7 +8,7 @@ class code10{
 
 static int[ ] arraysmall(int[] arr){
     Arrays.sort(arr);
-    int []ans;
+    int []ans = new int[arr.length];
    for (int i =0; i<arr.length; i++){
    ans[i] = arr[i];
    }
@@ -17,7 +17,7 @@ static int[ ] arraysmall(int[] arr){
 
 static void printarray(int []arr){
     for (int i=0; i<arr.length; i++){
-        System.out.print(arr[i]);
+        System.out.print(arr[i] + " ");
     }
 }
 

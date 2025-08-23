@@ -7,6 +7,7 @@ public class code_1 {
 
         System.out.println("Enter your number :");
         int num = sc.nextInt();
+        System.out.println();
 
         // if (num%2 ==0)
         // {
